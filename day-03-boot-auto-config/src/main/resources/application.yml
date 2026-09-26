@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: day-03-boot-auto-config
+server:
+  # 只对实际启动的 Web 服务生效；配置端口本身不会创建服务器
+  port: 18084
+  # 本课只在本机访问，避免将练习接口暴露给局域网
+  address: 127.0.0.1
