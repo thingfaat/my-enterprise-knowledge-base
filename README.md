@@ -8,7 +8,7 @@ GitHub 仓库：[thingfaat/my-enterprise-knowledge-base](https://github.com/thin
 
 ## 当前状态
 
-项目已进入 Day 01：已编写首课教案与学习记录，按学习者选择使用本机 JDK 17；业务代码待学习者亲手实现，尚无已验收的可运行应用。后续功能均为学习与实现目标，不表示已经完成。
+Day 01 独立模块已完成代码与运行验收（本地提交 3844a0e），已准备 Day 02 构造器注入教案，待学习者在独立模块中实现。完整知识库仍处于逐步学习建设阶段。
 
 ## 开始学习
 
@@ -61,7 +61,7 @@ Cloud 必学内容包括 Nacos、OpenFeign、LoadBalancer、Gateway、配置管�
 
 正式项目阶段仅使用 `knowledge-base-backend/` 与 `knowledge-base-frontend/` 两个顶层业务工程，与参考项目一致。后端内部仍分 kb-common、kb-gateway 等模块。每日练习保留，但不成为正式工程依赖。
 
-完整目标目录树和逐日模块清单见 [项目目录与模块约定](learning/项目目录与模块约定.md)。目录按课创建，当前业务模块尚未建立。
+完整目标目录树和逐日模块清单见 [项目目录与模块约定](learning/项目目录与模块约定.md)。目录按课创建；Day 01 已实现，Day 02 待创建。
 
 ## 文档结构
 
@@ -95,6 +95,11 @@ Cloud 必学内容包括 Nacos、OpenFeign、LoadBalancer、Gateway、配置管�
 
 ## 环境说明
 
-参考后端声明 Java 21、Spring Boot 3.2.0，前端使用 React、TypeScript 和 Vite。自己的学习项目按用户选择使用 JDK 17，Day 01 教案采用 Boot 3.2.0 与编译目标 17；后续逐模块核对与参考版本的差异。目前业务文件待用户创建，构建与启动步骤见首课教案，尚未实际验证。
+参考后端声明 Java 21、Spring Boot 3.2.0，前端使用 React、TypeScript 和 Vite。自己的学习项目按用户选择使用 JDK 17，Day 01 教案采用 Boot 3.2.0 与编译目标 17；后续逐模块核对与参考版本的差异。Day 01 已构建并通过 HTTP 验收，后续模块按各课单独验证。
 
 现有中间件配置已做初步检查，运行状态和兼容性尚待验证。进入环境课时，再核对连接、端口和数据初始化；后续启动说明将随实际代码补充。
+
+## 当前学习入口
+
+- [Day 01 验收报告](learning/reviews/day-01-验收报告.md)
+- [Day 02：IoC 与构造器注入](learning/lessons/day-02-SpringIoC与构造器注入.md)
