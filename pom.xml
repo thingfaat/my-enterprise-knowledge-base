@@ -13,5 +13,6 @@
         <module>day-01-spring-boot-hello</module>
         <module>day-02-spring-di</module>
         <module>day-03-boot-auto-config</module>
+        <module>day-04-spring-mvc</module>
     </modules>
 </project>

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: day-04-spring-mvc
+server:
+  # 当天独立应用只监听本机，避免与前一天端口冲突
+  port: 18086
+  address: 127.0.0.1
