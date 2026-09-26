@@ -2,7 +2,7 @@
 
 课程：[Starter 与自动配置](../lessons/day-03-Starter与自动配置.md)
 模块：`/Users/hingfaattam/projects/idea_projects/my-enterprise-knowledge-base/day-03-boot-auto-config`
-状态：教案已编写，模块待本人创建；运行验收未开始。
+状态：用户于 2026-09-27 报告完成；本地最终 Web 版本源码已核对。A/B/C 运行证据和理解记录待本人补充，本次未重跑。
 
 ## 本人填写
 
