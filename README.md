@@ -1,5 +1,7 @@
 # My Enterprise Knowledge Base
 
+GitHub 仓库：[thingfaat/my-enterprise-knowledge-base](https://github.com/thingfaat/my-enterprise-knowledge-base)。
+
 从真实源码出发，逐步亲手实现企业智能知识库的学习项目。
 
 目标是理解整体架构、数据流与设计取舍，并独立写出、运行和维护完整项目。源码阅读、教学文档和小实验服务于这个目标；最终需要交付自己的前后端实现及可复现的验收结果。

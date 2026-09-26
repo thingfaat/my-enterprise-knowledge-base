@@ -7,6 +7,14 @@
 - 中间件：`/Users/hingfaattam/projects/trae_projects/middleware`。先检查现有配置和运行情况，再决定是否需要调整；不要盲目重装或直接使用教程远程配置。
 - 用户会 Java，Spring Boot 不熟，每天学习 4 小时。采用讲解、源码追踪、用户动手和验收结合的教学方式。
 
+## GitHub 仓库与持久项目上下文
+
+- 自己实现的学习项目仓库：[thingfaat/my-enterprise-knowledge-base](https://github.com/thingfaat/my-enterprise-knowledge-base)。这是本工作目录对应的 GitHub 仓库，不是知识星球参考源码仓库。
+- Git 远程名：`origin`；地址：`https://github.com/thingfaat/my-enterprise-knowledge-base.git`。2026-09-26 已通过本地 `git remote -v` 核对。
+- 用户已于 2026-09-26 告知完成首次推送；后续提交是否同步应实时检查 Git 状态，不能把这条历史记录当作始终已同步。
+- 本文件保存跨会话使用的项目约定；每次进入项目先读取本文件，再按下述每日流程读取计划与进度。
+- 用户当前选择自行提交和推送。除非后续明确要求代为操作，不因编辑文档或课程自动提交、推送。
+
 ## 最终目标：亲手实现完整项目
 
 用户要求在理解参考源码的基础上，最终亲手写出完整企业智能知识库，包括后端、对应前端交互、中间件集成与启动交付。阅读源码和讲解原理是手段，不能以阅读完毕、跑通参考项目或只做小改动作为项目完成标准。
