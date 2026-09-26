@@ -8,7 +8,7 @@ GitHub 仓库：[thingfaat/my-enterprise-knowledge-base](https://github.com/thin
 
 ## 当前状态
 
-Day 01 独立模块已完成代码与运行验收（本地提交 3844a0e），已准备 Day 02 构造器注入教案，待学习者在独立模块中实现。完整知识库仍处于逐步学习建设阶段。
+Day 01 独立模块已完成代码与运行验收；Day 02 用户报告完成，本地源码已核对，运行与故障实验记录待补。当前进入 Day 03：Starter 与自动配置，教案已准备，待在独立模块中动手。完整知识库仍处于逐步学习建设阶段。
 
 ## 开始学习
 
@@ -61,7 +61,7 @@ Cloud 必学内容包括 Nacos、OpenFeign、LoadBalancer、Gateway、配置管�
 
 正式项目阶段仅使用 `knowledge-base-backend/` 与 `knowledge-base-frontend/` 两个顶层业务工程，与参考项目一致。后端内部仍分 kb-common、kb-gateway 等模块。每日练习保留，但不成为正式工程依赖。
 
-完整目标目录树和逐日模块清单见 [项目目录与模块约定](learning/项目目录与模块约定.md)。目录按课创建；Day 01 已实现，Day 02 待创建。
+完整目标目录树和逐日模块清单见 [项目目录与模块约定](learning/项目目录与模块约定.md)。目录按课创建；Day 01/02 已实现，Day 03 待本人创建。
 
 ## 文档结构
 
@@ -103,3 +103,6 @@ Cloud 必学内容包括 Nacos、OpenFeign、LoadBalancer、Gateway、配置管�
 
 - [Day 01 验收报告](learning/reviews/day-01-验收报告.md)
 - [Day 02：IoC 与构造器注入](learning/lessons/day-02-SpringIoC与构造器注入.md)
+
+- [Day 03：Starter 与自动配置](learning/lessons/day-03-Starter与自动配置.md)
+- [Day 03 学习记录](learning/notes/day-03-学习记录.md)
