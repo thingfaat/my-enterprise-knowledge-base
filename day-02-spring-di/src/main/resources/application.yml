@@ -1,0 +1,7 @@
+spring:
+  application:
+    # 与当天模块对应，和 Day 01 独立运行。
+    name: day-02-spring-di
+server:
+  # 与 Day 01 的 18082 区分，避免同时运行时冲突
+  port: 18083

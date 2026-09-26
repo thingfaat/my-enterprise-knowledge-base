@@ -11,5 +11,6 @@
 
     <modules>
         <module>day-01-spring-boot-hello</module>
+        <module>day-02-spring-di</module>
     </modules>
 </project>
