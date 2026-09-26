@@ -1,0 +1,7 @@
+spring:
+  application:
+    # 名称对应当天独立模块，不是整个学习仓库的应用名
+    name: day-01-spring-boot-hello
+server:
+  # 使用独立学习端口；如被占用，调整此处并同步验收请求地址
+  port: 18082

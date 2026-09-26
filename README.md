@@ -8,7 +8,7 @@ GitHub 仓库：[thingfaat/my-enterprise-knowledge-base](https://github.com/thin
 
 ## 当前状态
 
-项目处于学习准备阶段：已建立课程计划、教学规范、进度台账及模板，尚未开始 Day 01，暂无业务代码和可运行应用。后续功能均为学习与实现目标，不表示已经完成。
+项目已进入 Day 01：已编写首课教案与学习记录，按学习者选择使用本机 JDK 17；业务代码待学习者亲手实现，尚无已验收的可运行应用。后续功能均为学习与实现目标，不表示已经完成。
 
 ## 开始学习
 
@@ -55,6 +55,14 @@ Cloud 必学内容包括 Nacos、OpenFeign、LoadBalancer、Gateway、配置管�
 
 参考工程与中间件目录位于本仓库之外，不作为本仓库已交付功能。机器上的路径记录在 `AGENTS.md` 中，其他环境应按实际路径调整。
 
+## 代码目录
+
+补强阶段的独立课程在仓库下按天建 `day-NN-英文主题/`，例如 `day-01-spring-boot-hello/`；POM、src、配置均在当天模块内，仓库根不放练习业务源码。只有真实依赖才在同一实验内持续演进，例如 Day 11–20 的 `day-11-cloud-lab/`。
+
+正式项目阶段仅使用 `knowledge-base-backend/` 与 `knowledge-base-frontend/` 两个顶层业务工程，与参考项目一致。后端内部仍分 kb-common、kb-gateway 等模块。每日练习保留，但不成为正式工程依赖。
+
+完整目标目录树和逐日模块清单见 [项目目录与模块约定](learning/项目目录与模块约定.md)。目录按课创建，当前业务模块尚未建立。
+
 ## 文档结构
 
 ```text
@@ -65,12 +73,13 @@ Cloud 必学内容包括 Nacos、OpenFeign、LoadBalancer、Gateway、配置管�
     ├── 每日课程计划.md
     ├── 每日进度.md
     ├── 完整项目实现里程碑.md
+    ├── 项目目录与模块约定.md
     └── templates/
         ├── 教学文档模板.md
         └── 每日学习记录模板.md
 ```
 
-正式教案写入 `learning/lessons/day-NN-主题.md`，学习记录写入 `learning/notes/`。目前尚无当日教案；Git 不追踪空目录，首次创建文档时一并创建对应目录。
+正式教案写入 `learning/lessons/day-NN-主题.md`，学习记录写入 `learning/notes/`。首课：[Day 01：Maven 与第一个 Spring Boot 接口](learning/lessons/day-01-Maven与第一个SpringBoot接口.md)。学习记录：[Day 01](learning/notes/day-01-学习记录.md)。
 
 ## 教学约定
 
@@ -86,6 +95,6 @@ Cloud 必学内容包括 Nacos、OpenFeign、LoadBalancer、Gateway、配置管�
 
 ## 环境说明
 
-参考后端声明 Java 21、Spring Boot 3.2.0，前端使用 React、TypeScript 和 Vite。自己项目的实际依赖将在搭建时明确并验证，目前没有可执行的构建或启动命令。
+参考后端声明 Java 21、Spring Boot 3.2.0，前端使用 React、TypeScript 和 Vite。自己的学习项目按用户选择使用 JDK 17，Day 01 教案采用 Boot 3.2.0 与编译目标 17；后续逐模块核对与参考版本的差异。目前业务文件待用户创建，构建与启动步骤见首课教案，尚未实际验证。
 
 现有中间件配置已做初步检查，运行状态和兼容性尚待验证。进入环境课时，再核对连接、端口和数据初始化；后续启动说明将随实际代码补充。
