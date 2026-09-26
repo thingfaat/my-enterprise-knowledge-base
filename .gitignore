@@ -17,12 +17,3 @@ out/
 # Log files
 *.log
 logs/
-
-# Application
-application-local.yml
-application-dev.yml
-application-prod.yml
-
-# Upload files
-uploads/
-data/

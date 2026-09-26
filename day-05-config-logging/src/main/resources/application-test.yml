@@ -1,0 +1,8 @@
+# test 是本课的命名 Profile，不代表自动执行测试或真实测试环境。
+app:
+  preview:
+    label: "${KB_LABEL:test}"
+    max-length: 4
+logging:
+  level:
+    com.thingfaat.knowledge: INFO

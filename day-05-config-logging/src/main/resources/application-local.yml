@@ -1,0 +1,8 @@
+# 只有激活 local 才加载；没有覆盖的键继续使用基础文件值。
+app:
+  preview:
+    label: "${KB_LABEL:local}"
+    max-length: 8
+logging:
+  level:
+    com.thingfaat.knowledge: DEBUG

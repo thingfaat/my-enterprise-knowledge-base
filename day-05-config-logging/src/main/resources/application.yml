@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: day-05-config-logging
+server:
+  address: 127.0.0.1
+  port: 18087
+app:
+  preview:
+    # KB_LABEL 是本课自定义环境变量；冒号后是未设置时的默认值。
+    label: "${KB_LABEL:base}"
+    max-length: 20
+logging:
+  level:
+    root: INFO
+    com.thingfaat.knowledge: INFO

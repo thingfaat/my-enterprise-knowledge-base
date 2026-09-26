@@ -57,7 +57,7 @@ public class DocumentController {
         }
         DocumentResponse document = documentService.create(request);
         return ResponseEntity.created(
-                URI.create("/api/documents" + document.id())
+                URI.create("/api/documents/" + document.id())
         ).body(document);
     }
 }

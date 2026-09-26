@@ -14,5 +14,6 @@
         <module>day-02-spring-di</module>
         <module>day-03-boot-auto-config</module>
         <module>day-04-spring-mvc</module>
+        <module>day-05-config-logging</module>
     </modules>
 </project>
