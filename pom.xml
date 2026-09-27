@@ -15,5 +15,6 @@
         <module>day-03-boot-auto-config</module>
         <module>day-04-spring-mvc</module>
         <module>day-05-config-logging</module>
+        <module>day-06-mybatis-crud</module>
     </modules>
 </project>

@@ -2,7 +2,7 @@
 
 课程：[配置、Profile 与日志](../lessons/day-05-配置Profile与日志.md)
 模块：`/Users/hingfaattam/projects/idea_projects/my-enterprise-knowledge-base/day-05-config-logging`
-状态：教案已编写；本人实现和运行验收未开始。
+状态：用户报告完成，主体源码已核对；uppercase 独立练习与运行记录待补，本次未重跑。
 
 ## 本人填写
 
@@ -22,3 +22,7 @@
 ## 下次进入
 
 读取计划和进度，核对本课配置/代码/实验；Day 06 前核对现有 MySQL 环境和学习库。
+
+## 2026-09-27 源码核对反馈
+
+已确认配置 Bean 注册、三份 YAML、日志关联与码点截断主体存在；未见 uppercase 配置/分支。保留本人填写区域，不代填运行结果或理解结论；此前 Day 04 待办仍需补齐。

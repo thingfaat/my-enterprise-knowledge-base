@@ -8,7 +8,7 @@ GitHub 仓库：[thingfaat/my-enterprise-knowledge-base](https://github.com/thin
 
 ## 当前状态
 
-Day 01 独立模块已完成代码与运行验收；Day 02 用户报告完成，本地源码已核对，运行与故障实验记录待补。Day 03 用户报告完成，最终源码已核对，A/B/C 运行证据待补。Day 04 主体已实现，Location 拼接等待办已记录，尚未通过运行验收。当前进入 Day 05：配置、Profile 与日志，教案已准备。完整知识库仍处于逐步学习建设阶段。
+Day 01 独立模块已完成代码与运行验收；Day 02 用户报告完成，本地源码已核对，运行与故障实验记录待补。Day 03 用户报告完成，最终源码已核对，A/B/C 运行证据待补。Day 04 主体已实现，Location 拼接等待办已记录，尚未通过运行验收。Day 05 主体已实现，独立练习和运行记录待补。当前进入 Day 06：SQL、MyBatis 与持久化分层，教案已准备；先完成现有 MySQL 的启动与学习库核对。完整知识库仍处于逐步学习建设阶段。
 
 ## 开始学习
 
@@ -61,7 +61,7 @@ Cloud 必学内容包括 Nacos、OpenFeign、LoadBalancer、Gateway、配置管�
 
 正式项目阶段仅使用 `knowledge-base-backend/` 与 `knowledge-base-frontend/` 两个顶层业务工程，与参考项目一致。后端内部仍分 kb-common、kb-gateway 等模块。每日练习保留，但不成为正式工程依赖。
 
-完整目标目录树和逐日模块清单见 [项目目录与模块约定](learning/项目目录与模块约定.md)。目录按课创建；Day 01–04 已实现，Day 05 待本人创建。
+完整目标目录树和逐日模块清单见 [项目目录与模块约定](learning/项目目录与模块约定.md)。目录按课创建；Day 01–05 已实现，Day 06 待本人创建。
 
 ## 文档结构
 
@@ -112,3 +112,6 @@ Cloud 必学内容包括 Nacos、OpenFeign、LoadBalancer、Gateway、配置管�
 
 - [Day 05：配置、Profile 与日志](learning/lessons/day-05-配置Profile与日志.md)
 - [Day 05 学习记录](learning/notes/day-05-学习记录.md)
+
+- [Day 06：SQL、MyBatis 与持久化分层](learning/lessons/day-06-SQL与MyBatis持久化分层.md)
+- [Day 06 学习记录](learning/notes/day-06-学习记录.md)
