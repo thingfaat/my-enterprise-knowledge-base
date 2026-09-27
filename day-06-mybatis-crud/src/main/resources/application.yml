@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: day-06-mybatis-crud
+  datasource:
+    # 仅用于已确认的本机学习实例；正式环境不能照搬关闭 TLS 的设置。
+    # useAffectedRows=false：UPDATE 返回匹配行数，同值更新也按“存在”处理。
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://127.0.0.1:3306/kb_learning_day06?useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=UTF-8&useAffectedRows=false"
+    username: "root"
+    password: "12345678"
+    hikari:
+      maximum-pool-size: 3
+      connection-timeout: 5000
+  sql:
+    init:
+      # 建表由你显式执行 db/init.sql，不让启动过程中隐式该表数据库
+      mode: never
+
+server:
+  address: 127.0.0.1
+  port: 18088
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+logging:
+  level:
+    root: info
+    com.thingfaat.knowledge: info
+    # sql debug 可能输出参数和正文；本课通过数据库 SELECT 交叉验证
